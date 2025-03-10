@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Address Validation</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>IP Address Validation</h1>
+    <form id="ipForm">
+        <label for="ipAddress">IP Address:</label>
+        <input type="text" id="ipAddress" name="ipAddress" required>
+        <p id="error" class="error"></p><br>
+
+        <button type="submit">Validate</button>
+    </form>
+
+    <script src="ipvalidation.js"></script>
+</body>
+</html>
